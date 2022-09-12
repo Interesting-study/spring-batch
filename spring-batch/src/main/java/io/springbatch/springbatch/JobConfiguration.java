@@ -12,10 +12,9 @@ import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-
 @Configuration
 @RequiredArgsConstructor
-public class DBJobConfiguration {
+public class JobConfiguration {
 
     private final JobBuilderFactory jobBuilderFactory;
     private final StepBuilderFactory stepBuilderFactory;
